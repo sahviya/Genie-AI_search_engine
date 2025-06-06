@@ -1,39 +1,75 @@
-# 🧞‍♂️ Genie-AI Search Engine
+# 🧞‍♂️ Genie AI – A Visual AI Search Engine
 
-A GenAI-powered intelligent search engine built using **Streamlit**, enabling users to ask natural language queries and receive AI-generated answers using LLMs like OpenAI or Gemini.
-
----
-
-## 🚀 Features
-
-- 💬 Ask any natural language question
-- 🤖 AI-generated responses using OpenAI or Gemini API
-- ⚡ Fast, real-time answers
-- 🎨 Built with Streamlit for smooth web UI
-- 🧠 Optionally extendable using LangChain (for context/memory)
+Genie AI is a visually rich, AI-powered search engine built with **Streamlit**, combining the intelligence of GPT-4 and the power of the YouTube Data API to deliver search results with web links, images, and videos — all in a single interface.
 
 ---
 
-## 🧠 Tech Stack
+## 📌 Features
 
-- Python
-- Streamlit
-- OpenAI / Gemini API
-- (Optional) LangChain
+- 🔍 **AI-Powered Search**: Get smart, context-aware answers using OpenAI's GPT-4.
+- 🖼️ **Image Search**: Instantly fetch relevant images from the web.
+- 🎥 **Video Search**: Embed YouTube results directly in your search output.
+- 🌐 **Web Links**: Lists relevant article links just like a search engine.
+- ⚙️ **Customizable Options**:
+  - Set results per tab (slider)
+  - Toggle Safe Search
+  - Enable/Disable AI-generated answers
+- 💬 **Multi-purpose**: Works for general queries (e.g., tourist spots, topics) and legal ones (like IPC sections).
 
 ---
 
-## 📸 Screenshot
+## 🛠️ Tech Stack
 
-![Screenshot 2025-04-07 215705](https://github.com/user-attachments/assets/cce1eedc-2f3b-413a-a64d-514162e74e6a)
+| Component         | Technology        |
+|------------------|-------------------|
+| UI & Backend      | [Streamlit](https://streamlit.io/) |
+| AI Engine         | OpenAI GPT-4 (via API key) |
+| Video Search      | YouTube Data API |
+| Image & Web Links | Custom scraping/API integrations |
 
+---
 
-## 🛠️ How to Run Locally
+## 🧠 How it works
 
-```bash
-git clone https://github.com/sahviya/Genie-AI_search_engine.git
-cd Genie-AI_search_engine
-pip install -r requirements.txt
-streamlit run app.py
+Just type your query (e.g., _“Tourist places of Shivamogga”_ or _“IPC Section 302 explanation”_) and Genie AI fetches:
 
+- 🌐 Related **web pages**
+- 🖼️ Relevant **images**
+- 📺 Related **YouTube videos**
+
+You can switch between tabs (Web / Images / Videos) for each type of content.
+
+> ✅ **Use cases**: Law students, researchers, travelers, or just curious minds.
+
+---
+
+## 📷 Demo Screenshots
+
+**🔎 Image Search**
+![Image Search](./Screenshot%202025-04-07%20220723.png)
+
+**▶️ Video Results**
+![Video Search](./Screenshot%202025-04-07%20220736.png)
+
+---
+
+## 🔑 API Keys Required
+
+To run this app, you’ll need:
+
+- **OpenAI API Key** – for GPT-4 responses
+- **YouTube API Key** – for video embedding
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/genie-ai.git
+   cd genie-ai
+2.Install dependencies
+  pip install -r requirements.txt
+3.Run the app
+  streamlit run app.py
 
