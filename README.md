@@ -43,16 +43,6 @@ You can switch between tabs (Web / Images / Videos) for each type of content.
 
 ---
 
-## 📷 Demo Screenshots
-
-**🔎 Image Search**
-![Image Search](./Screenshot%202025-04-07%20220723.png)
-
-**▶️ Video Results**
-![Video Search](./Screenshot%202025-04-07%20220736.png)
-
----
-
 ## 🔑 API Keys Required
 
 To run this app, you’ll need:
